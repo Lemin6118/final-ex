@@ -9,3 +9,13 @@ foo <- head(apt_juso,50)
 
 foo <- tail(apt_juso,50)
 
+bar <- table(apt_price$apt_nm)
+
+save(apt_nm, file="./data/bar.rdata")
+
+install.packages("wordcloud")
+
+library(wordcloud)
+
+load("./data/bar.rdata")
+
