@@ -3,3 +3,6 @@
 2. git 초기화 및 커밋
 -> git init
    git commit
+   -> 기존 동일 래퍼지토리가 있어서 삭제 후 재커밋
+
+3. apt_price.rdata 복사 후 커밋
